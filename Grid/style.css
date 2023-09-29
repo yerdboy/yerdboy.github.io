@@ -1,0 +1,81 @@
+/* Reset some default styles for better control */
+body, h1, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 10px;
+    background-color: #333;
+}
+
+nav li {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+/* Main content styles */
+main {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+.grid-container {
+    display: grid;
+    column-gap: 50px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
